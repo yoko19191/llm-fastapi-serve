@@ -69,6 +69,10 @@ https://zhuanlan.zhihu.com/p/675834850?utm_campaign=&utm_medium=social&utm_psn=1
 
 https://www.bilibili.com/video/BV1BC411z7nH/?spm_id_from=333.1296.top_right_bar_window_custom_collection.content.click&vd_source=427a8f6991c46f06262700ed0e9203dc
 
+https://github.com/THUDM/ChatGLM3/tree/main/openai_api_demo
+
+
+
 
 ## 量化测试RAG性能
 

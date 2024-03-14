@@ -32,3 +32,5 @@ for output in outputs:
     generated_text = output.outputs[0].text
     print(f"Prompt: {prompt} \nGenerated text: \n{generated_text}")
 
+
+
