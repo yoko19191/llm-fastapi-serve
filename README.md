@@ -3,11 +3,12 @@
 在这个项目中你可以学习:
 
 1. 如何预计一个大模型的推理和训练所需的显存大小
-2. 如何使用Langchain 搭建一个大模型 Host 并使用 FastAPI 对外服务
-3. 量化测试我们的RAG性能
-4. 如果对我们的 大模型Host 进行压力测试
-5. 探索如何使用 `accelerate` 和 `deepspeed` 进行分布式推理和部署优化
-6. 使用 OneAPI 对外进行服务.
+2. 如何使用Langchain 搭建一个LLM 的异步Host
+3. 搭建一个 Whisper 的 异步Host 并实现负载均衡
+4. 量化测试我们的RAG性能
+5. 如果对我们的 大模型Host 进行压力测试
+6. 探索如何使用 `accelerate` 和 `deepspeed` 进行分布式推理和部署优化
+7. 使用 OneAPI 对外进行服务.
 
 ## 使用 `accelerate` 进行LLM 训练和推理显存大小估计
 
@@ -63,7 +64,7 @@ outputs = model.generate(**input_ids, max_new_tokens=1000)
 print(tokenizer.decode(outputs[0]))
 ```
 
-## 搭建一个基于FastAPI 的 LLM Host
+## 搭建一个异步 LLM Host
 
 https://zhuanlan.zhihu.com/p/675834850?utm_campaign=&utm_medium=social&utm_psn=1751526554947932160
 
@@ -72,6 +73,11 @@ https://www.bilibili.com/video/BV1BC411z7nH/?spm_id_from=333.1296.top_right_bar_
 https://github.com/THUDM/ChatGLM3/tree/main/openai_api_demo
 
 
+## 搭建一个异步 Whisper Host 并实现负载均衡
+
+https://whisperapi.com/create-your-own-openai-whisper-speech-to-text-api
+
+提供一个  transcriptions 端口允许音频文的 speech-to-text 
 
 
 ## 量化测试RAG性能
