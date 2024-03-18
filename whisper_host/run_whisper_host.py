@@ -10,7 +10,6 @@ curl --request POST\
    --url 'http://127.0.0.1//transcriptions\
    -F "file=@YOUR_FILE_PATH"\
    -F "model=medium"\
-   -F "language=zh"
 """
 
 
